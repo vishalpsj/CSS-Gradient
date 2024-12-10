@@ -139,7 +139,7 @@ select {
 }
 
 #copyBtn {
-    height: 30%;
+    height: 20%;
     background-color: #455;
     backdrop-filter: blur(15px);
     position: absolute;
