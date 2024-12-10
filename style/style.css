@@ -127,7 +127,7 @@ select {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    border-bottom: 5px solid rgba(255, 255, 255, 0.391);
+    border-left: 5px solid rgba(255, 255, 255, 0.391);
     box-shadow: 5px 1px 10px 0px rgba(0, 0, 0, 0.208);
 
 }
@@ -139,7 +139,7 @@ select {
 }
 
 #copyBtn {
-    height: 15%;
+    height: 20%;
     background-color: #455;
     backdrop-filter: blur(15px);
     position: absolute;
