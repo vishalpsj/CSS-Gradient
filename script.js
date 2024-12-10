@@ -49,9 +49,9 @@ btn1.addEventListener('click', handleBtn1)
 btn2.addEventListener('click', handleBtn2)
 copyBtn.addEventListener('click', () => {
     navigator.clipboard.writeText(copyThis.innerText)
-    copyBtn.innerText = "Copied"
+    copyBtn.innerHTML = '<p>Copied</p><i class="ri-file-copy-fill"></i>'
     setTimeout(() => {
-        copyBtn.innerText = "Copy"
+        copyBtn.innerHTML = `<p>Copy <i class="ri-file-copy-line"></i></p>`
     }, 1000)
 })
 

@@ -137,7 +137,6 @@ select{
 #copyBtn{
     background-color: #455;
     backdrop-filter: blur(15px);
-    font-weight: 900;
     position: absolute;
     padding: .8rem 2rem;
     left: 0;
@@ -147,6 +146,8 @@ select{
    overflow: hidden;
    cursor: pointer;
    -webkit-tap-highlight-color: transparent;
+   display: flex;
+   gap: 1rem;
 }
 
 #copyBtn:hover{
