@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Easy CSS random color gradient maker, css code for linear-gradient background-image">
+    <title>CSS Gradient</title>
+    <link rel="shortcut icon" href="./asset/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/responsive.css">
+</head>
+<body>
+    <div class="heading">
+        <h1>CSS Gradient</h1>
+    </div>
+    <div class="container">
+        <div class="input">
+            <p>Choose colors :</p>
+            <div class="btns">
+                <button id="btn1" class="btn">#435678</button>
+                <button id="btn2" class="btn">#167836</button>
+                <select name="layout" id="gradientLayout">
+                    <option value="to right" selected>to right</option>
+                    <option value="to left">to left</option>
+                    <option value="to top">to top</option>
+                    <option value="to bottom">to bottom</option>
+                </select>
+            </div>
+        </div>
+        <div class="output">
+            <div class="outputBox">
+                <div class="gradientCode">
+                    <p id="copyThis">background-image: linear-gradient(to right, #435678, #167836);</p>
+                </div>
+                <p id="copyBtn">Copy</p>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

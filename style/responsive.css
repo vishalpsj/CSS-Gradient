@@ -1,0 +1,21 @@
+@media (max-width : 450px) {
+    html{
+        font-size: 50%;
+    }
+}
+@media (max-width : 450px) {
+    html{
+        font-size: 45%;
+    }
+
+}
+@media (max-width : 350px) {
+    .btns{
+        flex-direction: column;
+    }
+
+    .heading{
+        align-items: center;
+    }
+
+}
